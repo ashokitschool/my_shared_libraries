@@ -1,3 +1,3 @@
-def call(mvn) {           
-  sh "${mvn}"
+def call() {           
+  sh "mvn clean package"
 }
