@@ -1,3 +1,3 @@
-def call(String mvn) {           
+def call(mvn) {           
   sh "${mvn}"
 }
