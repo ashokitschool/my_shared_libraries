@@ -1,3 +1,3 @@
 def call(repo) {           
-  sh "git ${repo}"
+  sh "git clone ${repo}"
 }
