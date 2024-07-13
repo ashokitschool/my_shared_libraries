@@ -1,3 +1,3 @@
 def call(repo) {           
-  sh "git clone ${repo}"
+   git branch: 'develop', url: 'https://github.com/ashokitschool/maven-web-app.git'
 }
